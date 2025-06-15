@@ -1,0 +1,8 @@
+body {
+  background: #f8f1e9 url('https://media.rainpos.com/6009/footer_image.png') repeat;
+}
+
+.site-wrapper {
+  max-width: 1200px;
+  margin: 3rem auto;
+}
