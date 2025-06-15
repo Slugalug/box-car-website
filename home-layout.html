@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Box Car Quilts</title>
 
-  <!-- Bootstrap 5 via CDN -->
+  <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles -->
-  <link href="style.css" rel="stylesheet">
+  <!-- Your custom styles -->
+  <link href="https://slugalug.github.io/box-car-website/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -41,14 +41,75 @@
       </div>
     </section>
 
-    <!-- Add your other sections here as you rebuild -->
+    <!-- 🔥 RainPOS Editable Content Block Goes Here -->
+    <div id="main-website-content" class="pageDiv"></div>
 
-    <footer class="text-center py-4 text-muted" style="background:#f6f6f6;">
+    <section class="container py-5 text-center">
+      <h2>About Us</h2>
+      <p class="mx-auto" style="max-width: 600px;">We’re a cozy quilt shop in Aubrey, Texas, offering fabric, classes, retreats, machine repair, and a whole lot of inspiration.</p>
+      <a href="/about" class="btn btn-sm btn-outline-dark mt-3">Learn More</a>
+    </section>
+
+    <section class="container py-5">
+      <h2 class="text-center mb-4">Shop Categories</h2>
+      <div class="row g-4 text-center">
+        <div class="col-md-3"><div class="card p-3 h-100"><h5>New Arrivals</h5><a href="/shop/new" class="btn btn-link">Shop Now</a></div></div>
+        <div class="col-md-3"><div class="card p-3 h-100"><h5>Precuts</h5><a href="/shop/precut" class="btn btn-link">Explore</a></div></div>
+        <div class="col-md-3"><div class="card p-3 h-100"><h5>Kits</h5><a href="/shop/kits" class="btn btn-link">See Kits</a></div></div>
+        <div class="col-md-3"><div class="card p-3 h-100"><h5>Notions</h5><a href="/shop/notions" class="btn btn-link">Browse</a></div></div>
+      </div>
+    </section>
+
+    <section class="bg-light py-5 text-center">
+      <div class="container">
+        <h2>Upcoming Classes</h2>
+        <div class="row g-4 text-center">
+          <div class="col-md-4"><div class="card p-3 h-100"><h5>Beginner Quilting</h5><p>Starts July 20</p><a href="/module/class.htm" class="btn btn-outline-dark">Sign Up</a></div></div>
+          <div class="col-md-4"><div class="card p-3 h-100"><h5>Free Motion Quilting</h5><p>Starts July 25</p><a href="/module/class.htm" class="btn btn-outline-dark">Sign Up</a></div></div>
+          <div class="col-md-4"><div class="card p-3 h-100"><h5>Holiday Table Runner</h5><p>Starts August 5</p><a href="/module/class.htm" class="btn btn-outline-dark">Sign Up</a></div></div>
+        </div>
+        <div class="text-center mt-4"><a href="/module/class.htm" class="btn btn-primary">See All Classes</a></div>
+      </div>
+    </section>
+
+    <section class="container py-5 text-center">
+      <h2>Retreat at the Ranch</h2>
+      <p class="mx-auto" style="max-width: 600px;">Book your group for a peaceful, creative getaway at our 50-acre ranch — perfect for quilting retreats and sewing circles up to 24 guests!</p>
+      <a href="/retreats" class="btn btn-secondary mt-3">Retreat Details</a>
+    </section>
+
+    <section class="bg-light py-5 text-center">
+      <div class="container">
+        <h2>Sewing Machine Sales & Repair</h2>
+        <p>Need a tune-up or looking for a new machine? Our in-house experts are here to help.</p>
+        <a href="/machines" class="btn btn-outline-secondary">View Services</a>
+      </div>
+    </section>
+
+    <section class="container py-5 text-center">
+      <h2>What Our Customers Say</h2>
+      <blockquote class="blockquote">“Box Car Quilts is my happy place!”</blockquote>
+      <blockquote class="blockquote">“Such a friendly shop with the best classes!”</blockquote>
+      <blockquote class="blockquote">“Love the fabric selection and retreat house.”</blockquote>
+    </section>
+
+    <section class="py-5 bg-primary text-white text-center">
+      <div class="container">
+        <h2>Stay in the Loop</h2>
+        <p>Get first dibs on new classes, fabric arrivals, and sales!</p>
+        <form class="d-flex justify-content-center mt-3">
+          <input type="email" class="form-control w-50 me-2" placeholder="Enter your email">
+          <button type="submit" class="btn btn-light">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="py-4 text-center text-muted" style="background:#f6f6f6;">
       <small>&copy; 2025 Box Car Quilts | 3718 Warschun Rd, Aubrey, TX | <a href="/contact">Contact</a></small>
     </footer>
   </div>
 
-  <!-- Bootstrap JS (optional) -->
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
